@@ -1,0 +1,60 @@
+{
+
+"cars":[
+    {
+        "model": "gt 63 s",
+        "brand": "Mercedes",
+        "kw": 620,
+        "hp": 831,
+        "price": 257500,
+        "co2Emissions": "180g/km",
+        "country": "germany",
+        "url": "details",
+        "avaible": true
+    }
+    {
+        "model": "M5",
+        "brand": "BMW",
+        "kw": 467,
+        "hp": 635,
+        "price": 165700,
+        "co2Emissions": "257g/km",
+        "country": "germany",
+        "url": "details",
+        "avaible": true
+    }
+    {
+        "model": "urus",
+        "brand": "lamborghini",
+        "kw": 478,
+        "hp": 650,
+        "price": 205715,
+        "co2Emissions": "290g/km",
+        "country": "italy",
+        "url": "details",
+        "avaible": true
+    }
+    {
+        "model": "gt-r",
+        "brand": "Nissan",
+        "kw": 357,
+        "hp": 530,
+        "price": 91653,
+        "co2Emissions": "279g/km",
+        "country": "japan",
+        "url": "details",
+        "avaible": true
+    }
+    {
+        "model": "R8",
+        "brand": "Audi",
+        "kw": 620,
+        "hp": 420,
+        "price": 209600,
+        "co2Emissions": "297g/km",
+        "country": "germany",
+        "url": "details",
+        "avaible": true
+    }
+]
+}

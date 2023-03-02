@@ -1,0 +1,117 @@
+body {
+    padding: 0rem;
+}
+
+.body_details {
+    padding: 2rem;
+}
+
+#titulo_princ {
+    /* margin: 0px 34.5% 7px 35%;*/
+    /*buscar una mejor forma de centrar este contenedor*/
+    text-align: center;
+    width: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+@media (max-width: 720px) {
+    .cards-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .brand,
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.card {
+    width: 18rem;
+    display: flex;
+}
+
+
+.price,
+.monthly {
+    background-color: #f8f8f8;
+    border: 1px red solid;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.price:hover {
+    opacity: 0.7;
+}
+
+.monthly:hover {
+    opacity: 0.7;
+}
+
+.cont-imagenes {
+    display: flex;
+}
+
+.img_details {
+    min-width: 200px;
+    max-width: 350px;
+}
+
+.table {
+    width: 30%;
+    /* border: 1px  solid black;*/
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    background-color: #e7e9ed;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.footer {
+    background-color: #e7e9ed;
+
+}
+
+.contact {
+    display: flex;
+    background-color: #e7e9ed;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+    padding-top: 10px;
+}
+
+.brand {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
