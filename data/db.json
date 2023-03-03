@@ -11,7 +11,7 @@
         "country": "germany",
         "url": "details",
         "avaible": true
-    }
+    },
     {
         "model": "M5",
         "brand": "BMW",
@@ -22,7 +22,7 @@
         "country": "germany",
         "url": "details",
         "avaible": true
-    }
+    },
     {
         "model": "urus",
         "brand": "lamborghini",
@@ -33,7 +33,7 @@
         "country": "italy",
         "url": "details",
         "avaible": true
-    }
+    },
     {
         "model": "gt-r",
         "brand": "Nissan",
@@ -44,7 +44,7 @@
         "country": "japan",
         "url": "details",
         "avaible": true
-    }
+    },
     {
         "model": "R8",
         "brand": "Audi",
